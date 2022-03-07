@@ -1,5 +1,6 @@
 function shortcut (string) {
-    return '';
+    var myStr = string.replace(/a|e|i|o|u/g,'');
+    return myStr;
 }
 
 console.log(shortcut('hello')); // 'hll'
